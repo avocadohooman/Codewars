@@ -1,0 +1,4 @@
+œôø¦		   sprintf(msg, "%s and %s like this", names[1], names[2]);
+		   return (msg);
+		 }
+	       }

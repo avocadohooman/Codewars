@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int	ft_strlen(char *str)
+{
+  int i;
+  int l;
+
+  i = 0;
+  l = 0;
+  while (str[i] != '\0')
+    {
+      if ((str[i] < 65))
+	l++;
+      i++;
+    }
+  return (i - l);
+}
+
+char 	*alphabet_position(char *text) {
+  char *str;
+  int i;
+  int c;
+  int let;
+
+  i = 0;
+  c = 0;
+  str = malloc(sizeof(char) * 100);
+  printf("%d\n", let);
+
+  str[c] = '\0';
+  return (str);
+  }
+
+int main()
+{
+  char *str = "The sunset sets at twelve o' clock.";
+ 
+  printf("%s\n", alphabet_position(str));
+  printf("208519211419520195201912020235122251531215311\n");
+  return (0);
+}
